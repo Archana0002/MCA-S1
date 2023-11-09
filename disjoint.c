@@ -2,7 +2,7 @@
 int u[10]={1,2,3,4,5,6,7,8,9,10};
 void display(int *arr);
 int find(int *arr);
-int flag=-1;
+
 int main()
 {
   int u[10]={1,1,1,1,1,1,1,1,1,1};
