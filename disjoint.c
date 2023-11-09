@@ -51,13 +51,13 @@ void display(int *arr)
 int find(int *arr)
 {
   int *ar=arr,i;
-  flag=flag-1;
+  
   for(i=0;i<10;i++)
   {
     if(*ar==1)
-    return i;
+    return u[i];
     *ar++;
   }
-  return flag;
+  return 0;
 }
 
