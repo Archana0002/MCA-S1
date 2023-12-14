@@ -1,0 +1,7 @@
+s1=input("Enter the collection of first integer:")
+s1=set(map(int,s1.split()))
+s2=input("Enter the collection of 2nd integer:")
+s2=set(map(int,s2.split()))
+print("length are equal:",len(s1)==len(s2))
+print("sum to the same value:",sum(s1)==sum(s2))
+print("common values:",bool(len(s1&s2)))
